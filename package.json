@@ -4,8 +4,8 @@
   "description": "comparing the similarities between sequelize and mongoose",
   "main": "server.js",
   "scripts": {
-    "lint": "npx eslint .",
-    "lint:fix": "npx eslint --fix .",
+    "lint": "npx eslint . --ext .js,.ts,.tsx",
+    "lint:fix": "npx eslint --ext .js,.ts,.tsx --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

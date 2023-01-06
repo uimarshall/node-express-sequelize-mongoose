@@ -12,7 +12,7 @@
   "extends": ["airbnb-base"],
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": ["*.js", "*.ts", "*.tsx"],
       "rules": {
         "no-console": "warn",
         "semi": "off",
